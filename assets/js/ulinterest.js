@@ -23,9 +23,7 @@ $(document).ready(function () {
 });
 
 $(window).resize(function () {
-  if (window.pausePagination === false) {
     rearrangeGrids();
-  }
 });
 
 function rearrangeGrids () {
